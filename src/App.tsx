@@ -1,10 +1,13 @@
-import PropsExampleOne from "./Examples/PropsExampleOne";
+// import PropsExampleOne from "./Examples/PropsExampleOne";
+
+import ExampleTwoInterFace from "./Examples/ExampleTwoInterFace";
 
 function App() {
   return (
     <div className="App">
-      <h1>Raj -ts</h1>
-      <PropsExampleOne user="raj" />
+      <h1>Ts- React Examples</h1>
+      {/* <PropsExampleOne user="raj" /> */}
+      <ExampleTwoInterFace user="raj" age={10} />
     </div>
   );
 }
