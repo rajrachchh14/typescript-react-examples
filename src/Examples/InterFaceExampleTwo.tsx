@@ -14,7 +14,7 @@ type MyInterface = {
   age: number;
 };
 
-const ExampleTwoInterFace = (props: MyInterface) => {
+const InterFaceExampleTwo = (props: MyInterface) => {
   return (
     <div>
       <div>Name {props.user}</div>
@@ -23,4 +23,4 @@ const ExampleTwoInterFace = (props: MyInterface) => {
   );
 };
 
-export default ExampleTwoInterFace;
+export default InterFaceExampleTwo;

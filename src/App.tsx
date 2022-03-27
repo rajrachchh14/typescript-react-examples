@@ -1,13 +1,13 @@
 // import PropsExampleOne from "./Examples/PropsExampleOne";
 
-import ExampleTwoInterFace from "./Examples/ExampleTwoInterFace";
+import InterFaceExampleTwo from "./Examples/InterFaceExampleTwo";
 
 function App() {
   return (
     <div className="App">
       <h1>Ts- React Examples</h1>
       {/* <PropsExampleOne user="raj" /> */}
-      <ExampleTwoInterFace user="raj" age={10} />
+      <InterFaceExampleTwo user="raj" age={22} />
     </div>
   );
 }
