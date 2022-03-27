@@ -1,4 +1,5 @@
 // Example Of Interface
+// Inter Face Declare Two types...
 
 // Type one Interface
 /*
