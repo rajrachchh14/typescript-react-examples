@@ -13,7 +13,7 @@ type MyInterface = {
 const ChildrenPropsEx7 = (props: MyInterface) => {
   return (
     <div>
-      <h3>ChildrenProps New Example</h3>
+      <h3>ChildrenProps Example 2</h3>
       <div>Name {props.user}</div>
       <div> salarey {props.salarey} </div>
       <div> {props.children}</div>

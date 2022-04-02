@@ -10,7 +10,7 @@ type ProfileInterface = {
 const ChildrenPropsEx6 = ({ user, salarey, children }: ProfileInterface) => {
   return (
     <div>
-      <h3>ChildrenProps Example</h3>
+      <h3>ChildrenProps Example 1</h3>
       <div>{user}</div>
       <div>{salarey}</div>
       <div>{children} </div>
