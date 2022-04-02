@@ -12,8 +12,10 @@ type MyInterface = {
 const OptionalPropsExampleThree = (props: MyInterface) => {
   return (
     <div>
+      <h3>Optional Props Example</h3>
       <div>Name ::: {props.user}</div>
       <div> Age :: {props.age || "data is not available"} </div>
+      <hr />
     </div>
   );
 };

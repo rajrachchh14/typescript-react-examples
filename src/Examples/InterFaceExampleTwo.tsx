@@ -18,8 +18,10 @@ type MyInterface = {
 const InterFaceExampleTwo = (props: MyInterface) => {
   return (
     <div>
+      <h3>Interface Example</h3>
       <div>Name {props.user}</div>
       <div> Age {props.age} </div>
+      <hr />
     </div>
   );
 };

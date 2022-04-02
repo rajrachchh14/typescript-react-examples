@@ -4,8 +4,10 @@
 const PropsExampleOne = (props: { user: string }) => {
   return (
     <div>
+      <h3>Props Example</h3>
       <div>Hi {props.user}</div>
       <div>abc</div>
+      <hr />
     </div>
   );
 };
