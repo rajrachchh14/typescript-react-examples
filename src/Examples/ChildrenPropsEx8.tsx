@@ -1,6 +1,6 @@
 // ChildrenPropsEx 3
 // React.FC ...
-//This Way Writing Of It Will Default Access Children Props
+// This Way Writing Of It Will Default Access Children Props
 // (Not Need To Delacre Children as a type)
 
 type MyInterface = {
