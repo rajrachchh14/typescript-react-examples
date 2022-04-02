@@ -1,5 +1,6 @@
 // union Example ...
 //  "active" | "deactive";
+// it is Not allowed another types
 
 type ProfileInterface = {
   user: string;
