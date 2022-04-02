@@ -6,6 +6,7 @@ import UnionEx5 from "./Examples/UnionEx5";
 import ChildrenPropsEx6 from "./Examples/ChildrenPropsEx6";
 import ChildrenPropsEx7 from "./Examples/ChildrenPropsEx7";
 import ChildrenPropsEx8 from "./Examples/ChildrenPropsEx8";
+import StateEx9 from "./Examples/StateEx9";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <h1>Typescript- React Ex...</h1>
       <hr />
 
+      <StateEx9 />
       <ChildrenPropsEx8 salarey={10000} user="raj">
         <span style={{ color: "red" }}> Address : Usa </span>
       </ChildrenPropsEx8>
