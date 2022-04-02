@@ -1,3 +1,6 @@
+// Destrcture Example
+// Destrcture props
+
 type ProfileInterface = {
   user: string;
   age?: number;
