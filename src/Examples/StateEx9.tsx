@@ -32,7 +32,7 @@ const StateEx9 = () => {
       FoodName | FoodPrice
       <ul>
         {foodList &&
-          foodList.map((item, i) => {
+          foodList.map((item: any, i) => {
             return (
               <li key={i}>
                 {item.fname} | {item.fprice}

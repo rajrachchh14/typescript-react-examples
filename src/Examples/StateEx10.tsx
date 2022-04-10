@@ -5,17 +5,15 @@ import React, { useState } from "react";
 const StateEx10 = () => {
   const [foodname, setFoodName] = useState("");
   const [foodprice, setFoodPrice] = useState("");
-  // const [foodList, setFoodList] = useState<string[]>([]);
+  const [foodList, setFoodList] = useState<string[]>([]);
 
   function DataAdd() {
-    //  setFoodList([...foodList, { fname: foodname, fprice: foodprice }]);
+    setFoodList([...foodList, { fname: foodname, fprice: foodprice }]);
     setFoodName("");
     setFoodPrice("");
   }
 
   function handelChange(name: any, e: React.ChangeEvent<HTMLInputElement>) {
-    // console.log(name);
-    // console.log(e);
     if (name === "foodname") {
       setFoodName(e.target.value);
     }
@@ -38,22 +36,21 @@ const StateEx10 = () => {
         name="foodprice"
         value={foodprice}
         onChange={(e) => handelChange("foodprice", e)}
-        // onChange={(e) => setFoodPrice(e.target.value)}
         placeholder="price"
       />
       <br />
       <input type="submit" onClick={DataAdd} /> <br /> <br />
       FoodName | FoodPrice
-      {/* <ul>
+      <ul>
         {foodList &&
-          foodList.map((item, i) => {
+          foodList.map((item: any, i) => {
             return (
               <li key={i}>
                 {item.fname} | {item.fprice}
               </li>
             );
           })}
-      </ul> */}
+      </ul>
       <hr />
     </div>
   );
