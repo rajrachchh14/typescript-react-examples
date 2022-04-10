@@ -24,7 +24,7 @@ const StateEx10 = () => {
 
   return (
     <div>
-      <h3> OnChage / Usestate Example 2</h3>
+      <h3> OnChage / Usestate Example </h3>
       <input
         name="foodname"
         value={foodname}
