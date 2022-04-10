@@ -1,14 +1,14 @@
-// StateEx10.tsx
+// On Change Example
 
 import React, { useState } from "react";
 
 const StateEx10 = () => {
   const [foodname, setFoodName] = useState("");
   const [foodprice, setFoodPrice] = useState("");
-  const [foodList, setFoodList] = useState<string[]>([]);
+  // const [foodList, setFoodList] = useState<string[]>([]);
 
   function DataAdd() {
-    setFoodList([...foodList, { fname: foodname, fprice: foodprice }]);
+    // setFoodList([...foodList, { fname: foodname, fprice: foodprice }]);
     setFoodName("");
     setFoodPrice("");
   }
@@ -41,7 +41,7 @@ const StateEx10 = () => {
       <br />
       <input type="submit" onClick={DataAdd} /> <br /> <br />
       FoodName | FoodPrice
-      <ul>
+      {/* <ul>
         {foodList &&
           foodList.map((item: any, i) => {
             return (
@@ -50,7 +50,7 @@ const StateEx10 = () => {
               </li>
             );
           })}
-      </ul>
+      </ul> */}
       <hr />
     </div>
   );
