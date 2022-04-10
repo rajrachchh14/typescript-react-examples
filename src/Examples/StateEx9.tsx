@@ -13,7 +13,7 @@ const StateEx9 = () => {
 
   return (
     <div>
-      <h3>Usestate Example</h3>
+      <h3>Usestate Example , Panding here type declare</h3>
       <input
         name="foodname"
         value={foodname}
